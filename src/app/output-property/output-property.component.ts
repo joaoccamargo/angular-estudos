@@ -7,8 +7,8 @@ import { Component, Input, Output, EventEmitter, ViewChild, ElementRef } from '@
 })
 export class OutputPropertyComponent {
 
-  @Input() valor: number = 0;
-  valorInicial:number = 15;
+  @Input() valor = 0;
+  valorInicial = 15;
 
   @Output() mudouValor = new EventEmitter();
 

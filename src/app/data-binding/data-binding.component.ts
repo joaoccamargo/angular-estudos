@@ -8,7 +8,7 @@ import { OutputPropertyComponent } from '../output-property/output-property.comp
 })
 export class DataBindingComponent {
 
-  nomeDoCurso: string = 'Angular';
+  nomeDoCurso = 'Angular';
   valorInicial = 15;
 
   onMudouValor(evento:any){

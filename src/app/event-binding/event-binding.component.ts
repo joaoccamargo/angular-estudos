@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class EventBindingComponent {
 
-  valorAtual:string ='';
-  valorSalvo:string = '';
-  isMouseOver:boolean = false;
+  valorAtual ='';
+  valorSalvo = '';
+  isMouseOver = false;
 
   constructor(){
 

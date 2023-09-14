@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TwoWayDataBindingComponent {
 
-  nome: string = 'ABC';
+  nome = 'ABC';
 
   pessoa: any = {
     nome: 'Jose',
